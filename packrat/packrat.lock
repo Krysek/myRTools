@@ -1,0 +1,45 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.2.4
+Repos: BioCsoft=https://bioconductor.org/packages/3.2/bioc,
+    BioCann=https://bioconductor.org/packages/3.2/data/annotation,
+    BioCexp=https://bioconductor.org/packages/3.2/data/experiment,
+    BioCextra=https://bioconductor.org/packages/3.2/extra,
+    CRAN=https://cran.rstudio.com/
+
+Package: data.table
+Source: CRAN
+Version: 1.10.4
+Hash: 2c7c47ccb40d01c7b214c8eff818108d
+
+Package: fasttime
+Source: CRAN
+Version: 1.0-2
+Hash: 713e6f2b8ea13cdb0484b78f4385aeac
+
+Package: lubridate
+Source: CRAN
+Version: 1.6.0
+Hash: b90f4cbefe0b3c545dd68b22c66a8a12
+Requires: stringr
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: stringi
+Source: CRAN
+Version: 1.1.5
+Hash: b6308e49357a0b475f433599e0d8b5eb
+
+Package: stringr
+Source: CRAN
+Version: 1.2.0
+Hash: 25a86d7f410513ebb7c0bc6a5e16bdc3
+Requires: magrittr, stringi
